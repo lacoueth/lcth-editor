@@ -21,6 +21,6 @@
   "sideEffects": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/lacoueth/lcth-editor"
+    "url": "https://github.com/lacoueth/lcth-editor.git"
   }
 }

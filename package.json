@@ -1,6 +1,6 @@
 {
   "name": "lcth-editor",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,8 +9,12 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "build_lib": "ng build lcth-editor",
-    "npm_pack": "cd dist/lcth-editor && npm pack",
-    "package": "npm run build_lib && npm run npm_pack"
+    "npm_pack": "cd dist/lcth-editor && npm pack && cd ../../",
+    "package": "npm run build_lib && npm run npm_pack",
+    "version": "git add -A src",
+    "postversion": "git push && git push --tags",
+    "patch_projects": "cd projects/lcth-editor && npm version patch && cd ../../ && npm version patch",
+    "publish_patch": "npm run patch_projects && npm run package && npm publish dist/lcth-editor/*.tgz"
   },
   "private": true,
   "dependencies": {
