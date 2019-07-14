@@ -3,10 +3,9 @@ cd projects/lcth-editor
 npm version patch
 cd ../../
 
-git add .
+git add . && git commit
 npm version patch
 
-git add .
 git push && git push --tags
 
 npm run package
