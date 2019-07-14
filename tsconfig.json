@@ -17,6 +17,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "lcth-editor": [
+        "dist/lcth-editor"
+      ],
+      "lcth-editor/*": [
+        "dist/lcth-editor/*"
+      ]
+    }
   }
 }

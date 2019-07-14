@@ -1,0 +1,26 @@
+{
+  "name": "lcth-editor",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^7.2.0",
+    "@angular/core": "^7.2.0",
+    "@angular/forms": "^7.2.0",
+    "@ckeditor/ckeditor5-angular": "^1.1.0",
+    "@ckeditor/ckeditor5-build-classic": "^12.3.1"
+  },
+  "dependencies": {},
+  "main": "bundles/lcth-editor.umd.js",
+  "module": "fesm5/lcth-editor.js",
+  "es2015": "fesm2015/lcth-editor.js",
+  "esm5": "esm5/lcth-editor.js",
+  "esm2015": "esm2015/lcth-editor.js",
+  "fesm5": "fesm5/lcth-editor.js",
+  "fesm2015": "fesm2015/lcth-editor.js",
+  "typings": "lcth-editor.d.ts",
+  "metadata": "lcth-editor.metadata.json",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lacoueth/lcth-editor"
+  }
+}
